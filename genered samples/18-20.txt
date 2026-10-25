@@ -1,0 +1,43 @@
+## 1. Why AI Models Generate Incorrect Information
+
+AI models do not possess conscious reasoning, factual awareness, or real-time truth verification. Instead, they operate as **advanced statistical prediction engines**.
+
+During training, large language models analyze vast datasets of human text to learn relationships between words, phrases, and concepts. When responding to a prompt, the model calculates the most statistically probable next word to follow. Because the system prioritizes generating plausible, coherent text rather than cross-referencing a verified database of facts, it can produce fluent answers that are completely inaccurate.
+
+---
+
+## 2. Key Failure Modes and Practical Examples
+
+### 1. Hallucinations
+
+* **What It Is:** The AI confidently invents false facts, non-existent dates, fabricated statistics, or fictional references while presenting them as absolute truth.
+* **Practical Example:** An engineering student asks an AI for research citations on concrete durability. The AI provides a nicely formatted citation: *"Smith, J. (2021). Thermal degradation of reinforced concrete. Journal of Civil Structures, 14(2), 112-128."* Upon searching academic databases, the student discovers that neither the article, DOI, nor issue exists—the AI simply combined common academic names and journal titles into a plausible string.
+
+### 2. Outdated Knowledge
+
+* **What It Is:** AI models operate under a static "knowledge cutoff" based on when their training data was collected. Unless connected to live search or real-time retrieval systems, they cannot account for recent developments, updated laws, or new discoveries.
+* **Practical Example:** A student asks an AI for the current tax rate or building code regulations. The model provides an answer based on parameters from several years ago, omitting recent legislative amendments that invalidate the old numbers.
+
+### 3. Misleading & Contextually Flawed Responses
+
+* **What It Is:** The AI misinterprets subtle nuances, oversimplifies complex technical problems, or presents theoretical ideals without accounting for real-world physical constraints.
+* **Practical Example:** A student asks how to calculate circuit resistance in an experimental setup. The AI applies ideal circuit formulas correctly on paper, but fails to account for component tolerance, internal battery resistance, or ambient thermal noise, leading to real-world laboratory errors.
+
+---
+
+## 3. Methods for Verifying Important Claims
+
+To ensure accuracy when using AI outputs for academic, professional, or technical work, use the following verification strategies:
+
+1. **Trace to Primary Sources:** Never rely on the AI's explanation alone. Cross-reference specific claims, dates, and formulas against peer-reviewed journals, official university textbooks, or standard technical documentation.
+2. **Verify References Directly:** If an AI tool cites a study, book, or legal case, search for its title or DOI directly in verified databases like Google Scholar, IEEE Xplore, or PubMed to confirm its existence and conclusions.
+3. **Use Independent Problem Solving:** Re-calculate mathematical equations, physics derivations, and accounting figures step-by-step using standard scientific calculators or computer algebra systems (e.g., WolframAlpha, MATLAB).
+4. **Triangulate Across Reliable Sources:** Verify critical claims across at least two independent, authoritative sources (e.g., government publications, industry standard manuals, established academic publishers).
+
+---
+
+## 4. Guidelines for Responsible AI Usage
+
+* **Treat AI as a Draft, Not a Reference:** Use AI models as creative brainstorming partners, language polishers, or preliminary study guides—never as an authoritative bibliography or primary source.
+* **Prompt for Transparency:** Ask the AI to state its reasoning step-by-step and explicitly flag areas of uncertainty or missing context.
+* **Maintain Human Accountability:** Remember that you—not the AI model—are ultimately responsible for the accuracy, validity, and ethics of the work, code, or research you submit.

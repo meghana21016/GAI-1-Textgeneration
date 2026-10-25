@@ -1,0 +1,37 @@
+## 1. Why Cybersecurity Matters for College Students
+
+College students manage an incredible amount of sensitive digital data—including university portal credentials, banking details, personal research, and social media accounts. Cybercriminals frequently target students because they heavily rely on public Wi-Fi networks, share personal details across multiple platforms, and often use simple or repeated passwords.
+
+A single security breach can result in **identity theft, stolen financial funds, leaked academic research, or unauthorized access to university systems**.
+
+---
+
+## 2. Common Cybersecurity Threats & Examples
+
+### Phishing
+
+* **What It Is:** Fraudulent communications (usually emails or messages) designed to trick you into revealing sensitive information like login credentials or credit card numbers. Attackers impersonate trusted institutions like universities, banks, or tech support.
+* **Practical Example:** You receive an email claiming to be from your university IT department titled *"Urgent: Your Email Account Will Be Terminated in 24 Hours."* It contains a link to a fake login page designed to steal your university password.
+
+### Weak Passwords
+
+* **What It Is:** Simple, predictable, or reused passwords that automated hacking tools can guess in seconds using dictionary attacks or credential stuffing.
+* **Practical Example:** Using passwords like `Password123`, `College2024`, or using the same single password across your university portal, personal email, and shopping accounts. If one service suffers a data breach, hackers gain access to all your accounts.
+
+### Malicious Software (Malware)
+
+* **What It Is:** Harmful software—such as viruses, trojans, spyware, or ransomware—secretly installed on your device to corrupt data, log keystrokes, or steal personal information.
+* **Practical Example:** Downloading a "free" pirated textbook or cracked engineering software executable (`.exe`) from an unverified online forum that silently installs a keylogger to record your passwords.
+
+---
+
+## 3. Recommended Steps to Secure Your Accounts
+
+1. **Enable Multi-Factor Authentication (MFA):** Turn on MFA across all primary accounts (email, university portals, banking). MFA requires a secondary verification step (like an authenticator app code or security key), preventing unauthorized logins even if someone knows your password.
+2. **Use a Dedicated Password Manager:** Switch to a password manager (such as Bitwarden or 1Password) to generate and store unique, 16+ character passwords for every single site. You only need to remember one strong master password.
+3. **Verify Links and Senders:** Always inspect email sender addresses carefully before clicking links. If an email claims to come from your university or bank, navigate to the official website directly through your browser rather than clicking email links.
+4. **Avoid Public Wi-Fi for Sensitive Tasks:** Avoid logging into bank accounts or submitting sensitive assignments over unsecured campus cafe or public Wi-Fi. If necessary, use a trusted Virtual Private Network (VPN) to encrypt your traffic.
+
+---
+
+## 4. Essential Security Practices Checklist

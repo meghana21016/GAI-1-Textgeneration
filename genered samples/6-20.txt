@@ -1,0 +1,70 @@
+### 1. Smart Resume Parser & Job Matcher
+
+* **Purpose & Features:** Automatically reads resume PDFs, extracts candidate skills, education, and experience using Natural Language Processing (NLP), and calculates a percentage match score against job descriptions. It highlights missing keywords and recommends personalized skill improvements.
+* **Real-World Problem Solved:** Job applicants often struggle to tailor their resumes for Automated Applicant Tracking Systems (ATS), while recruiters spend hours manually reading thousands of applications.
+* **Recommended Technologies:** Python, `pdfplumber` or `PyPDF2` (text extraction), `spaCy` or `NLTK` (NLP parsing), `scikit-learn` (TF-IDF vectorization/similarity scoring), and `Streamlit` (frontend).
+* **Incremental Build Path:**
+1. Build a basic script that extracts raw text from a PDF file.
+2. Implement TF-IDF vectorizer and cosine similarity to compare resume text against job descriptions.
+3. Integrate `spaCy` to recognize named entities like technologies, universities, and job titles.
+4. Wrap the backend into an interactive web UI using Streamlit.
+
+
+
+---
+
+### 2. AI Plant Disease Detector for Urban Farmers
+
+* **Purpose & Features:** Allows users to upload a smartphone photo of a crop or houseplant leaf. The Computer Vision model identifies whether the plant is healthy or infected (e.g., powdery mildew, leaf spot) and suggests eco-friendly remedies.
+* **Real-World Problem Solved:** Beginner gardeners and small-scale farmers lose crops due to misdiagnosed plant diseases and late pest interventions.
+* **Recommended Technologies:** Python, `TensorFlow`/`Keras` or `PyTorch` (Computer Vision), `MobileNetV2` or `ResNet50` (pre-trained CNN models for transfer learning), and `Gradio` or `Flask` (deployment).
+* **Incremental Build Path:**
+1. Collect a dataset from Kaggle (e.g., PlantVillage dataset).
+2. Train a baseline convolutional neural network (CNN) or apply transfer learning using MobileNet.
+3. Evaluate accuracy and tune hyperparameters using a test set.
+4. Deploy the model as an accessible web app with simple treatment recommendations.
+
+
+
+---
+
+### 3. Personal Course Document RAG Chatbot
+
+* **Purpose & Features:** A Retrieval-Augmented Generation (RAG) assistant that allows students to upload course PDFs, lecture slides, or textbooks and ask natural language questions. The bot answers using *only* the uploaded documents and provides exact page citations.
+* **Real-World Problem Solved:** General LLMs often "hallucinate" or lack specific context from a professor's syllabus, leaving students searching through hundreds of slide pages for exam answers.
+* **Recommended Technologies:** Python, `LangChain` or `LlamaIndex`, `ChromaDB` or `FAISS` (vector databases for embeddings), local models via `Ollama` (e.g., Llama 3 / Mistral) or API endpoints (OpenAI / Gemini), and `Streamlit`.
+* **Incremental Build Path:**
+1. Write a script to convert uploaded PDFs into small text chunks.
+2. Convert text chunks into vector embeddings using an open-source embedding model and store them in FAISS.
+3. Retrieve the top relevant chunks for a user query using similarity search.
+4. Pass retrieved context alongside the question to an LLM to generate precise answers.
+
+
+
+---
+
+### 4. Real-Time Smart Attendance System
+
+* **Purpose & Features:** Uses a standard webcam to detect faces entering a room, matches them against a student database in real-time, and logs time stamped attendance into an automated database or Google Sheet.
+* **Real-World Problem Solved:** Roll-call attendance takes up valuable lecture time and paper sign-in sheets are prone to proxy attendance fraud.
+* **Recommended Technologies:** Python, `OpenCV` (video stream processing), `face_recognition` library / `dlib` (facial feature extraction), and `Pandas` or `SQLite` (database management).
+* **Incremental Build Path:**
+1. Write an OpenCV script to capture live video from a webcam and detect faces.
+2. Generate and store facial encoding vectors for a directory of known student photos.
+3. Compare live webcam encodings against the stored database using Euclidean distance.
+4. Automatically write verified matches to an Excel or SQLite database with timestamps.
+
+
+
+---
+
+### 5. Financial Anomaly & UPI Fraud Detector
+
+* **Purpose & Features:** Analyzes personal transaction records or simulated UPI payment data to flag suspicious activities—such as sudden unusual amounts, rapid consecutive transfers, or odd geographical logins.
+* **Real-World Problem Solved:** Digital payment fraud affects millions of users daily, making early automated detection critical for financial safety.
+* **Recommended Technologies:** Python, `Pandas`/`NumPy` (data cleaning), `scikit-learn` (`RandomForest`, `IsolationForest`, or `XGBoost` for tabular anomaly detection), and `Dash` or `Streamlit` (dashboard visualization).
+* **Incremental Build Path:**
+1. Load a financial transaction dataset (e.g., Credit Card or Synthetic Financial Datasets from Kaggle).
+2. Preprocess features (e.g., transaction amount, time delta, sender/receiver delta) and handle class imbalances using SMOTE.
+3. Train a classification model like Random Forest or an unsupervised Isolation Forest.
+4. Build an interactive visual dashboard showing live transaction streams and flagged fraud alerts.

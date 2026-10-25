@@ -1,0 +1,50 @@
+## 1. Weekly Overview & Daily Schedule Structure
+
+To effectively learn Python while preparing for university examinations, this plan uses **interleaved learning**—combining technical coding sessions with core academic revision every single day.
+
+### Daily Time Block Allocation (4–5 Hours Total)
+
+* **Block 1 (Morning / Early Afternoon):** 90 mins — Exam Revision (High-Focus Theory)
+* **Block 2 (Late Afternoon):** 90 mins — Python Fundamentals & Hands-on Coding
+* **Block 3 (Evening):** 60 mins — Review, Active Recall & Practice Problems
+* **Breaks:** 10–15 min breaks between blocks; 8 hours of sleep reserved nightly.
+
+---
+
+## 2. Day-by-Day Study Schedule
+
+| Day | Exam Revision Focus | Python Learning Goal | Daily Coding Task |
+| --- | --- | --- | --- |
+| **Day 1** | **Engineering Math:** Calculus & Derivatives review + formulas summary sheet | Variables, Primitive Data Types (ints, floats, strings), and User Input | Write a script that prompts users for test scores and calculates their average |
+| **Day 2** | **Engineering Physics:** Wave Mechanics & Oscillations + key derivations | Control Flow: `if`, `elif`, `else` conditional logic & Boolean operators | Build a grade calculator that assigns letter grades (A, B, C, F) based on score inputs |
+| **Day 3** | **Basic Electrical Eng:** Circuit analysis laws (KCL, KVL) + practice problems | Loops: `while` loops and `for` loops with `range()` | Create a guessing game where the user guesses a secret number with high/low hints |
+| **Day 4** | **Engineering Chemistry:** Electrochemistry & Corrosion mechanisms | Data Structures: Lists, Tuples, and basic List operations/methods | Build a basic command-line Task/To-Do manager to add, view, and remove items |
+| **Day 5** | **Engineering Math:** Differential Equations + previous exam problem set | Functions: Defining custom functions, `return` values, and parameters | Refactor the Day 4 Task Manager into clean, modular functions for each feature |
+| **Day 6** | **Physics & Electrical:** Combined active-recall practice test under exam timing | Dictionaries: Key-value pairs, iterating through keys/values, lookup methods | Build a mini Student Gradebook storing student names as keys and mark lists as values |
+| **Day 7** | **Full Exam Review:** Weak topic consolidation + formula memorization | **Mini-Capstone Project:** Integrating all concepts learned throughout the week | Code a complete command-line Student Management System handling input, calculation, and lookup |
+
+---
+
+## 3. Daily Schedule Breakdown Example (Day 3)
+
+```
+08:00 AM – 08:30 AM | Morning Routine & Healthy Breakfast
+08:30 AM – 10:00 AM | Block 1: Basic Electrical Eng (KCL/KVL Circuit Problems)
+10:00 AM – 10:20 AM | ☕ Active Break (Walk outside, hydrate)
+10:20 AM – 11:50 AM | Block 2: Python Loops (`for`, `while`, `range()`)
+11:50 AM – 01:00 PM | Lunch & Relaxation
+01:00 PM – 02:00 PM | Block 3: Code Practice (Building the Number Guessing Game)
+02:00 PM onwards     | Free time, hobbies, exercise, and early bed by 10:30 PM
+
+```
+
+---
+
+## 4. Measurable Progress Goals
+
+By the end of Day 7, the student will evaluate their progress using these concrete benchmarks:
+
+1. **Academic Readiness Check:** Successfully complete 3 past exam papers (Math, Physics, Electrical) achieving a target score of **80% or higher** without referring to solution sheets.
+2. **Coding Autonomy Test:** Write a 50+ line Python script utilizing loops, functions, lists, and dictionaries **from scratch** without looking at video tutorials.
+3. **Debugging Benchmark:** Identify and fix 5 deliberate syntax and logic errors in a provided test script within 20 minutes.
+4. **Consistency Metric:** Complete 100% of the daily scheduled 90-minute revision blocks without burning out or sacrificing sleep.
